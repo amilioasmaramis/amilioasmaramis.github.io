@@ -30,6 +30,15 @@ function playRandom() {
     video[4] = "Invoker";
     video[5] = "Wd";
 
+    var mySong = new Array();
+    mySong[0] = "Kunka";
+    mySong[1] = "Earthseeker";
+    mySong[2] = "BountyHunter";
+    mySong[3] = "Juggernaut";
+    mySong[4] = "Invoker";
+    mySong[5] = "Wd";
+
+
     var rnd = Math.floor(Math.random() * myImages1.length); 
     // spoilerVideo.src = "video/" + hero + ".mp4";
     spoilerRandom.src = myImages1[rnd];
@@ -39,36 +48,48 @@ function playRandom() {
             spoilerVideo.src = "video/" + video[rnd] + ".mp4";
             spoilerVideo.play();
             spoilerGambar.src = myImages1[rnd];
+            song.src = "audio/" + mySong[rnd] + ".mp3"
+            song.play()
             break;
         case 1:
             spoilerRandom.src = myImages1[rnd];
             spoilerVideo.src = "video/" + video[rnd] + ".mp4";
             spoilerVideo.play();
             spoilerGambar.src = myImages1[rnd];
+            song.src = "audio/" + mySong[rnd] + ".mp3"
+            song.play()
             break;
         case 2:
             spoilerRandom.src = myImages1[rnd];
             spoilerVideo.src = "video/" + video[rnd] + ".mp4";
             spoilerVideo.play();
             spoilerGambar.src = myImages1[rnd];
+            song.src = "audio/" + mySong[rnd] + ".mp3"
+            song.play()
             break;
         case 3:
             spoilerRandom.src = myImages1[rnd];
             spoilerVideo.src = "video/" + video[rnd] + ".mp4";
             spoilerVideo.play();
             spoilerGambar.src = myImages1[rnd];
+            song.src = "audio/" + mySong[rnd] + ".mp3"
+            song.play()
             break;
         case 4:
             spoilerRandom.src = myImages1[rnd];
             spoilerVideo.src = "video/" + video[rnd] + ".mp4";
             spoilerVideo.play();
             spoilerGambar.src = myImages1[rnd];
+            song.src = "audio/" + mySong[rnd] + ".mp3"
+            song.play()
             break;
         case 5:
             spoilerRandom.src = myImages1[rnd];
             spoilerVideo.src = "video/" + video[rnd] + ".mp4";
             spoilerVideo.play();
             spoilerGambar.src = myImages1[rnd];
+            song.src = "audio/" + mySong[rnd] + ".mp3"
+            song.play()
             break;
     }
     
